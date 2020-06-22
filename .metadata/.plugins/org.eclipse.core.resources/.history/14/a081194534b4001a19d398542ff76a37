@@ -1,0 +1,16 @@
+package com.fimeco.services.impl;
+
+import com.fimeco.documents.Respuesta;
+import com.fimeco.services.RespuestaService;
+
+import reactor.core.publisher.Mono;
+
+public class RespuestaServiceImpl implements RespuestaService {
+
+	@Override
+	public Mono<Respuesta> save(Respuesta respuesta) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

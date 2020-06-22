@@ -1,0 +1,13 @@
+package com.fimeco;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class FimecoTestApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(FimecoTestApplication.class, args);
+	}
+
+}

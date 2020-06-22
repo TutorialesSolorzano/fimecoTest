@@ -1,0 +1,6 @@
+package com.fimeco.services;
+
+public interface RespuestaService {
+
+	Mono<Respuesta> save(Respuesta respuesta);
+}

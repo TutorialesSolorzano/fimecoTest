@@ -1,0 +1,16 @@
+package com.fimeco.services.impl;
+
+import com.fimeco.documents.Pregunta;
+import com.fimeco.services.PreguntaService;
+
+import reactor.core.publisher.Mono;
+
+public class PreguntaServiceImpl implements PreguntaService {
+
+	@Override
+	public Mono<Pregunta> findPregunta() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

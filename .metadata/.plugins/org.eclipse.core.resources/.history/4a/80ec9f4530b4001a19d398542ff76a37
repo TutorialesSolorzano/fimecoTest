@@ -1,0 +1,9 @@
+package com.fimeco.repositories;
+
+import org.springframework.data.mongodb.repository.ReactiveMongoRepository;
+
+import com.fimeco.documents.Respuesta;
+
+public interface RespuestaRepository extends ReactiveMongoRepository<Respuesta, String> {
+
+}

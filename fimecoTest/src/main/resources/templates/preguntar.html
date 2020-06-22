@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title th:text="${titulo}">Insert title here</title>
+</head>
+<body>
+<h1 th:text="${titulo}"></h1>
+
+
+<table>
+	<tbody>
+		<tr>
+			<td>Pregunta</td>
+			<td th:text="${pregunta.pregunta}"></td>
+		</tr>
+		
+		<tr>
+			<td>Respuesta</td>
+			<td th:text="${pregunta.pregunta}"></td>
+		</tr>
+	</tbody>
+</table>
+
+</body>
+</html>
